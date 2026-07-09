@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+/* NAVBAR */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#0f172a;
+    color:white;
+    padding:15px 30px;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+    color:#38bdf8;
+    transition:0.3s ease;
+    cursor:pointer;
+}
+
+.logo:hover{
+    transform:scale(1.05);
+}
+
+nav a{
+    color:white;
+    margin:0 10px;
+    text-decoration:none;
+    position:relative;
+    transition:0.3s ease;
+}
+
+nav a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-5px;
+    width:0;
+    height:2px;
+    background:#38bdf8;
+    transition:0.3s ease;
+}
+
+nav a:hover::after{
+    width:100%;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+.login{
+    background:#38bdf8;
+    border:none;
+    padding:8px 15px;
+    cursor:pointer;
+    border-radius:5px;
+    transition:0.3s ease;
+}
+
+.login:hover{
+    background:#0ea5e9;
+    transform:scale(1.05);
+}
+
+/* HERO */
+.hero{
+    height:320px;
+    background-image: url('https://images.unsplash.com/photo-1501117716987-c8e1ecb2101d?auto=format&fit=crop&w=1400&q=80');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+}
+
+.hero-content{
+    text-align:center;
+    animation:fadeIn 0.8s ease-out;
+}
+
+.hero h1{
+    font-size:40px;
+    color: rgba(14, 63, 73, 0.316);
+}
+
+.hero p{
+    opacity:0.9;
+    color: rgba(14, 63, 73, 0.316);
+}
+
+@keyframes fadeIn{
+    from{opacity:0; transform:translateY(10px)}
+    to{opacity:1; transform:translateY(0)}
+}
+
+/* SEARCH */
+.search-box{
+    margin-top:15px;
+    display:flex;
+    gap:10px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.search-box input,
+.search-box button{
+    padding:10px;
+    border:none;
+    transition:0.25s ease;
+    border-radius:5px;
+}
+
+.search-box input:focus{
+    outline:2px solid #38bdf8;
+    transform:scale(1.02);
+}
+
+.search-box button{
+    background:#38bdf8;
+    color:white;
+    cursor:pointer;
+}  
+
+.search-box button:hover{
+    background:#0ea5e9;
+    transform:translateY(-2px);
+}
+
+/* HOTELS */
+.hotels{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:40px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:250px;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    text-align:center;
+    transition:0.3s ease;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card img{
+    width:100%;
+    height:160px;
+    object-fit:cover;
+}
+
+.card button{
+    background:#0f172a;
+    color:white;
+    border:none;
+    padding:10px;
+    margin:10px 0;
+    cursor:pointer;
+    border-radius:5px;
+    transition:0.25s ease;
+}
+
+.card button:hover{
+    background:#334155;
+    transform:translateY(-2px);
+}
+
+/* FOOTER */
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
