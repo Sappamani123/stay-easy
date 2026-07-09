@@ -1,3 +1,5 @@
+
+
 # stay-easy
 html css hotel-booking responsive-design frontend web-development travel-website ui-design github-pages portfolio-project
 🚀 StayEasy – Responsive Hotel Booking Website
@@ -18,3 +20,7 @@ Organized and maintainable code
 I'm continuously improving my frontend development skills by building real-world UI projects. Feedback and suggestions are always welcome!
 
 #HTML #CSS #FrontendDevelopment #WebDevelopment #ResponsiveDesign #GitHub #Portfolio #OpenSource #Learning #100DaysOfCode
+
+
+https://github.com/user-attachments/assets/bfe18b64-1d1d-4378-a0dc-b74060472887
+
