@@ -153,10 +153,18 @@ body{
     background:#334155;
     transform: translateY(-2px);
 }
-footer{
+#demo1{
     background: #0f172a;
     color: white;
     margin: 20px 0px 0px;
     padding: 15px;
+    text-align: center;
+}
+#demo{
+    background: #0f172a;
+    color: white;
+    margin: 5px 0px 0px;
+    padding: 15px;
+    font-size: 15px;
     text-align: center;
 }
