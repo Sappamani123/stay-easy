@@ -6,6 +6,8 @@ html css hotel-booking responsive-design frontend web-development travel-website
 
 Excited to share my latest frontend project, StayEasy! Built using HTML5 and CSS3, this responsive hotel booking website features a modern user interface, clean layout, and user-friendly design inspired by real-world travel platforms.
 
+Live URL: https://sappamani123.github.io/stay-easy/
+
 ✨ Features:
 
 Responsive design
